@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.demoForm{
+  width: 15%;
+  margin:0 auto;
+}
+.demoForm input{
+  margin-top: 5%;
+}
+.demoForm button{
+  margin:5% 0;
+}
+.mypanel{
+  color:red;
+}
+.menu{
+  margin-right: 2%;
+  list-style-type: none;
+  display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ align-content: flex-end;
+}
+.menu-item{
+   margin: 5px;
+ padding: 5px;
+ flex: 0 1 auto;
+}
